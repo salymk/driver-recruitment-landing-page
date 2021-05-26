@@ -1,9 +1,9 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from 'react'
+import { Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from '../components/layout'
+import Seo from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
@@ -12,19 +12,18 @@ const IndexPage = () => (
     {/* We work with the best */}
 
     {/* Who are we? */}
-      {/* What do we do? */}
+    {/* What do we do? */}
     {/* Why work with us? */}
-    
 
     {/* Employee Driver and Owner Operator */}
     {/* Pay */}
     {/* How to get started */}
     {/* FAQ */}
     {/* Open Positions */}
-      {/* Employee  */}
-        {/* Link to tentstreet */}
-      {/* Owner/operator */}
-        {/* Calendly Link */}
+    {/* Employee  */}
+    {/* Link to tentstreet */}
+    {/* Owner/operator */}
+    {/* Calendly Link */}
   </Layout>
 )
 
