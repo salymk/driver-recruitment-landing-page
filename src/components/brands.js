@@ -2,8 +2,8 @@ import React from 'react';
 
 export const Brands = () => (
   <>
-    <div className="bg-white">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+    <section className="bg-white section-spacing">
+      <div className="px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div>
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
@@ -71,6 +71,6 @@ export const Brands = () => (
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </>
 );
