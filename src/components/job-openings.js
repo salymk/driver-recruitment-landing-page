@@ -3,8 +3,8 @@ import React from 'react';
 export const JobOpenings = () => (
   <>
     <section className="relative bg-white section-spacing">
-      <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-        <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+      <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-0 lg:max-w-7xl">
+        <p className="mt-2 text-3xl font-bold text-gray-900 tracking-tight sm:text-4xl">
           Open roles
         </p>
         <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
@@ -19,7 +19,7 @@ export const JobOpenings = () => (
                 <div className="-mt-6">
                   <div>
                     <span className="inline-flex items-center justify-center p-3 bg-blue-500 rounded-md shadow-lg">
-                      <h3 className="mb-0 text-3xl font-medium text-white tracking-tight">
+                      <h3 className="mb-0 text-2xl font-medium text-white tracking-tight">
                         Employee Driver
                       </h3>
                     </span>
@@ -44,7 +44,7 @@ export const JobOpenings = () => (
                 <div className="-mt-6">
                   <div>
                     <span className="inline-flex items-center justify-center p-3 bg-gray-900 rounded-md shadow-lg">
-                      <h3 className="mb-0 text-3xl font-medium text-white tracking-tight">
+                      <h3 className="mb-0 text-2xl font-medium text-white tracking-tight">
                         Owner Operator
                       </h3>
                     </span>

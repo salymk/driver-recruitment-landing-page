@@ -6,7 +6,7 @@ export const Brands = () => (
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div>
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
               Drive for the world's most average companies
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-gray-500">

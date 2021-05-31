@@ -14,10 +14,8 @@ import { Footer } from './footer';
 const Layout = ({ children }) => (
   <>
     <Header />
-    <div className="max-w-6xl m-auto">
-      <main>{children}</main>
-      <Footer />
-    </div>
+    <main className="max-w-6xl m-auto">{children}</main>
+    <Footer />
   </>
 );
 
