@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section-spacing {
+    @apply py-8 sm:py-16
+}
