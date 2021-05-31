@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const Testimonials = () => (
-  <section className="text-gray-100 body-font">
-    <div className="container px-5 py-24 mx-auto">
+  <section className="text-gray-100 section-spacing">
+    <div className="container px-5 mx-auto">
       <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">
         What our drivers have said
       </h1>

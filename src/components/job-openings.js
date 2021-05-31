@@ -2,7 +2,7 @@ import React from 'react';
 
 export const JobOpenings = () => (
   <>
-    <div className="relative bg-white py-16 sm:py-24 lg:py-32">
+    <section className="relative bg-white section-spacing">
       <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
         <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
           Open roles
@@ -66,6 +66,6 @@ export const JobOpenings = () => (
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </>
 );

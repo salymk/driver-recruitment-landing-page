@@ -2,8 +2,8 @@ import React from 'react';
 
 export const FAQ = () => (
   <>
-    <div className="bg-gray-900 rounded-lg">
-      <div className="max-w-6xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+    <section className="bg-gray-900 rounded-lg section-spacing">
+      <div className="px-4  sm:px-6 lg:px-8">
         <div className="lg:max-w-2xl lg:mx-auto lg:text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
             Frequently asked questions
@@ -40,6 +40,6 @@ export const FAQ = () => (
           </dl>
         </div>
       </div>
-    </div>
+    </section>
   </>
 );

@@ -2,7 +2,7 @@ import React from 'react';
 
 export const EmployeeVSOwner = () => (
   <>
-    <div className="py-16 overflow-hidden lg:py-24">
+    <section className="overflow-hidden section-spacing">
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="relative">
           <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -220,6 +220,6 @@ export const EmployeeVSOwner = () => (
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </>
 );
