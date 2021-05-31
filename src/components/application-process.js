@@ -2,7 +2,7 @@ import React from 'react';
 
 export const ApplicationProcess = () => (
   <>
-    <section className="py-20">
+    <section className="section-spacing lg:pb-24">
       <div className="container px-4 mx-auto">
         <div className="mb-8">
           <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
