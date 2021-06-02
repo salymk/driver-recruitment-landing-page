@@ -115,7 +115,7 @@ export const ApplicationProcess = () => (
                   </div>
                   <div className="rounded-md shadow">
                     <a className="cursor-pointer uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-md md:px-10">
-                      Apply Now
+                      Contact Sales
                     </a>
                   </div>
                 </div>
