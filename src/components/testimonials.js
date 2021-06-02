@@ -3,12 +3,12 @@ import React from 'react';
 export const Testimonials = () => (
   <section className="text-gray-100 section-spacing">
     <div className="container px-5 mx-auto">
-      <h1 className="text-3xl font-bold title-font text-gray-900 mb-12 text-center">
+      <h1 className="text-3xl font-bold title-font text-gray-900 mb-12 text-center sm:text-4xl">
         What our drivers have said
       </h1>
       <div className="flex flex-wrap -m-4">
         <div className="p-4 md:w-1/2 w-full">
-          <div className="h-full bg-gray-900 p-8 rounded">
+          <div className="h-full bg-gray-900 p-8 rounded-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
