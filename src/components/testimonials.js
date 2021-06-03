@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Testimonials = () => (
   <section className="text-gray-100 section-spacing">
-    <div className="container px-5 mx-auto">
+    <div className="container px-4 mx-auto">
       <h1 className="text-3xl font-bold title-font text-gray-900 mb-12 text-center sm:text-4xl">
         What our drivers have said
       </h1>
