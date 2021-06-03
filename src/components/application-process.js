@@ -4,7 +4,7 @@ export const ApplicationProcess = () => (
   <>
     <section className="relative bg-white section-spacing md:mx-4 lg:pb-28">
       <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-0 lg:max-w-7xl">
-        <p className="mt-2 text-3xl font-bold text-gray-900 tracking-tight sm:text-4xl">
+        <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
           Application Process
         </p>
         <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">

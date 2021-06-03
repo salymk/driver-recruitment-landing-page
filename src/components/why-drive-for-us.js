@@ -4,7 +4,7 @@ export const WhyDriveForUs = () => (
   <>
     <section className="relative bg-white px-4 section-spacing">
       <div className="mx-auto max-w-md text-center sm:max-w-3xl lg:max-w-7xl">
-        <p className="mt-2 text-3xl font-bold text-gray-900 tracking-tight sm:text-4xl">
+        <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
           Why drive for us?
         </p>
         <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">

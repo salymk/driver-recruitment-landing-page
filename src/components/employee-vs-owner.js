@@ -5,7 +5,7 @@ export const EmployeeVSOwner = () => (
     <section className="overflow-hidden section-spacing">
       <div className="relative max-w-xl mx-auto sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="relative px-4">
-          <h2 className="text-center text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-center text-3xl leading-8 font-bold tracking-tight sm:text-4xl">
             How we work drivers and owner-operators
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
@@ -16,7 +16,7 @@ export const EmployeeVSOwner = () => (
 
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
-            <h3 className="text-2xl font-bold text-gray-900 tracking-tight sm:text-3xl">
+            <h3 className="text-2xl font-bold tracking-tight sm:text-3xl">
               Owner Operator
             </h3>
             <p className="mt-3 text-lg text-gray-500">
@@ -70,7 +70,7 @@ export const EmployeeVSOwner = () => (
                       />
                     </svg>
                   </div>
-                  <p className="ml-12 text-lg leading-6 font-medium text-gray-900">
+                  <p className="ml-12 text-lg leading-6 font-medium ">
                     Up to $5,000 Sign on Bonus for OTR O/O
                   </p>
                 </dt>
@@ -141,7 +141,7 @@ export const EmployeeVSOwner = () => (
         <div className="relative mt-12 sm:mt-16 lg:mt-24">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
-              <h3 className="text-2xl font-bold text-gray-900 tracking-tight sm:text-3xl">
+              <h3 className="text-2xl font-bold tracking-tight sm:text-3xl">
                 Company Driver
               </h3>
               <p className="mt-3 text-lg text-gray-500">
@@ -170,7 +170,7 @@ export const EmployeeVSOwner = () => (
                         />
                       </svg>
                     </div>
-                    <p className="ml-12 text-lg leading-6 font-medium text-gray-900">
+                    <p className="ml-12 text-lg leading-6 font-medium ">
                       Owner Operators must have their own trucks
                     </p>
                   </dt>

@@ -4,7 +4,7 @@ export const JobOpenings = () => (
   <>
     <section className="relative bg-white mx-4 section-spacing">
       <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-0 lg:max-w-7xl">
-        <p className="mt-2 text-3xl font-bold text-gray-900 tracking-tight sm:text-4xl">
+        <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
           Open roles
         </p>
         <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
