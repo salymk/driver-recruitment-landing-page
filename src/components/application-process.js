@@ -2,7 +2,7 @@ import React from 'react';
 
 export const ApplicationProcess = () => (
   <>
-    <section className="relative bg-white section-spacing lg:pb-28">
+    <section className="relative bg-white section-spacing md:mx-4 lg:pb-28">
       <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-0 lg:max-w-7xl">
         <p className="mt-2 text-3xl font-bold text-gray-900 tracking-tight sm:text-4xl">
           Application Process
@@ -13,7 +13,7 @@ export const ApplicationProcess = () => (
           condimentum id viverra nulla.
         </p>
         <div className="mt-12">
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
+          <div className="sm:px-16 md:px-0 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
             <div className="pt-6">
               <div className="flow-root bg-gray-900 rounded-lg shadow-lg px-6 pb-8">
                 <div className="-mt-6">
