@@ -130,7 +130,7 @@ export const EmployeeVSOwner = () => (
 
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
             <img
-              className="relative mx-auto md:rounded-xl"
+              className="relative mx-auto sm:rounded-lg"
               width="490"
               src="https://images.unsplash.com/photo-1592805144716-feeccccef5ac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
               alt=""
@@ -230,7 +230,7 @@ export const EmployeeVSOwner = () => (
 
             <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
               <img
-                className="relative mx-auto md:rounded-xl"
+                className="relative mx-auto sm:rounded-lg"
                 width="490"
                 src="https://images.unsplash.com/photo-1592805144716-feeccccef5ac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
                 alt=""
