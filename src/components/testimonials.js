@@ -8,7 +8,7 @@ export const Testimonials = () => (
       </h1>
       <div className="flex flex-wrap -m-4">
         <div className="p-4 md:w-1/2 w-full">
-          <div className="h-full bg-gray-900 p-8 rounded-md">
+          <div className="h-full bg-gray-900 p-8 rounded-lg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -34,7 +34,7 @@ export const Testimonials = () => (
           </div>
         </div>
         <div className="p-4 md:w-1/2 w-full">
-          <div className="h-full bg-gray-900 p-8 rounded">
+          <div className="h-full bg-gray-900 p-8 rounded-lg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
