@@ -16,14 +16,10 @@ export const JobOpenings = () => (
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
             <div className="pt-6">
               <div className="flow-root bg-gray-900 rounded-lg shadow-lg px-6 pb-8">
-                <div className="-mt-6">
-                  <div>
-                    <span className="inline-flex items-center justify-center p-3 bg-blue-500 rounded-md shadow-lg">
-                      <h3 className="mb-0 text-2xl font-medium text-white tracking-tight">
-                        Employee Driver
-                      </h3>
-                    </span>
-                  </div>
+                <div>
+                  <h2 className="text-3xl text-white font-medium mt-4">
+                    Company Driver
+                  </h2>
                   <div className="flex flex-col justify-between	h-auto max-h-48">
                     <p className="mt-5 text-md text-white mb-6">
                       Click 'Apply Now' to fill out the job application. We have
@@ -41,14 +37,8 @@ export const JobOpenings = () => (
 
             <div className="pt-6">
               <div className="flow-root bg-gray-100 rounded-lg shadow-lg px-6 pb-8">
-                <div className="-mt-6">
-                  <div>
-                    <span className="inline-flex items-center justify-center p-3 bg-gray-900 rounded-md shadow-lg">
-                      <h3 className="mb-0 text-2xl font-medium text-white tracking-tight">
-                        Owner Operator
-                      </h3>
-                    </span>
-                  </div>
+                <div>
+                  <h2 className="text-3xl  font-medium mt-4">Owner Operator</h2>
                   <div className="flex flex-col justify-between	h-auto max-h-48">
                     <p className="mt-5 text-md text-gray-900 mb-6">
                       Click 'Apply Now' to fill out the job application. We have
