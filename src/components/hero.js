@@ -3,7 +3,7 @@ import React from 'react';
 export const Hero = () => (
   <>
     <section>
-      <div className="container px-4 mx-auto">
+      <div className="px-4 mx-auto">
         <div className="pt-6 lg:pt-0 flex flex-wrap items-center -mx-4 lg:my-10">
           <div className="text-center w-full md:text-left md:w-1/2 px-4 mb-8 md:mb-0">
             <h2 className="mb-8 text-3xl lg:text-4xl font-bold lg:max-w-sm">
