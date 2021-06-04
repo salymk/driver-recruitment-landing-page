@@ -26,7 +26,7 @@ export const JobOpenings = () => (
                       4 positions left.
                     </p>
                     <div className="rounded-md shadow">
-                      <a className="cursor-pointer uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-gray-50 hover:bg-gray-200 md:py-4 md:text-md md:px-10">
+                      <a className="cursor-pointer uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-gray-50 hover:bg-gray-200 md:py-4 lg:text-lg md:px-10">
                         Apply Now
                       </a>
                     </div>
@@ -45,7 +45,7 @@ export const JobOpenings = () => (
                       4 positions left.
                     </p>
                     <div className="rounded-md shadow">
-                      <a className="cursor-pointer uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-md md:px-10">
+                      <a className="cursor-pointer uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 lg:text-lg md:px-10">
                         Talk to sales
                       </a>
                     </div>

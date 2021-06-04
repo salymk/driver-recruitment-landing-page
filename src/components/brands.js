@@ -18,7 +18,7 @@ export const Brands = () => (
               <div className="rounded-md shadow">
                 <a
                   href="#"
-                  className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600"
+                  className="flex items-center justify-center px-5 py-3 border border-transparent uppercase text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 sm:text-sm lg:text-lg"
                 >
                   Apply Now
                 </a>
