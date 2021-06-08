@@ -1,12 +1,15 @@
 import React, { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import { Link as LinkScroll } from 'react-scroll';
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Benefits', href: '#' },
+  { name: 'Work', href: '#' },
+  { name: 'Testimonials', href: '#' },
+  { name: 'Application', href: '#' },
+  { name: 'FAQ', href: '#' },
+  { name: 'Job Openings', href: '#' },
 ];
 
 export const Header = () => (
@@ -38,20 +41,25 @@ export const Header = () => (
                 </div>
                 <div className="hidden space-x-8 md:flex md:ml-10">
                   {navigation.map((item) => (
-                    <a
+                    <LinkScroll
                       key={item.name}
-                      href={item.href}
-                      className="text-base font-medium text-white hover:text-gray-300"
+                      className="cursor-pointer p-2 text-base font-medium text-white hover:text-gray-300"
+                      activeClass="active"
+                      to={item.name}
+                      spy
+                      smooth
+                      offset={-100}
+                      duration={1000}
                     >
                       {item.name}
-                    </a>
+                    </LinkScroll>
                   ))}
                 </div>
               </div>
               <div className="hidden md:flex md:items-center md:space-x-6">
                 <a
                   href="#"
-                  className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"
+                  className="cursor-pointer inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"
                 >
                   Apply now
                 </a>
@@ -93,13 +101,17 @@ export const Header = () => (
                 <div className="pt-5 pb-6">
                   <div className="px-2 space-y-1">
                     {navigation.map((item) => (
-                      <a
+                      <LinkScroll
                         key={item.name}
-                        href={item.href}
-                        className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
+                        className="cursor-pointer block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
+                        to={item.name}
+                        spy
+                        smooth
+                        offset={-100}
+                        duration={1000}
                       >
                         {item.name}
-                      </a>
+                      </LinkScroll>
                     ))}
                   </div>
                   <div className="mt-6 px-5">
