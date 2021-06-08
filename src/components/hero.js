@@ -3,7 +3,7 @@ import React from 'react';
 export const Hero = () => (
   <>
     <section>
-      <div className="px-4 mx-auto">
+      <div className="px-4 mx-auto mt-24">
         <div className="pt-6 lg:pt-0 flex flex-wrap items-center -mx-4 lg:my-10">
           <div className="text-center w-full md:text-left md:w-1/2 px-4 mb-8 md:mb-0">
             <h2 className="mb-8 text-3xl lg:text-4xl font-bold lg:max-w-sm">
@@ -14,7 +14,7 @@ export const Hero = () => (
               develop resources continually and integrity them with previous
               projects.
             </p>
-            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center md:justify-left lg:justify-start">
               <div className="rounded-md shadow">
                 <a className="cursor-pointer uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 sm:text-sm lg:text-lg md:py-4 lg:text-md md:px-10">
                   Apply Now
