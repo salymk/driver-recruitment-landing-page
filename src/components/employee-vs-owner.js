@@ -2,7 +2,7 @@ import React from 'react';
 
 export const EmployeeVSOwner = () => (
   <>
-    <section className="overflow-hidden section-spacing">
+    <section className="overflow-hidden section-spacing" id="Work">
       <div className="relative max-w-xl mx-auto sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="relative px-4">
           <h2 className="text-center text-3xl leading-8 font-bold tracking-tight sm:text-4xl">

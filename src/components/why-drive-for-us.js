@@ -2,7 +2,7 @@ import React from 'react';
 
 export const WhyDriveForUs = () => (
   <>
-    <section className="relative bg-white px-4 section-spacing">
+    <section className="relative bg-white px-4 section-spacing" id="Benefits">
       <div className="mx-auto max-w-md text-center sm:max-w-3xl lg:max-w-7xl">
         <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
           Why drive for us?

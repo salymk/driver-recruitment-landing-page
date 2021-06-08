@@ -2,7 +2,10 @@ import React from 'react';
 
 export const ApplicationProcess = () => (
   <>
-    <section className="relative bg-white section-spacing md:mx-4 lg:pb-28">
+    <section
+      className="relative bg-white section-spacing md:mx-4 lg:pb-28"
+      id="Application"
+    >
       <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-0 lg:max-w-7xl">
         <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
           Application Process
