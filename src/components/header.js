@@ -39,16 +39,17 @@ export const Header = () => (
                     </Popover.Button>
                   </div>
                 </div>
+                {/* Desktop Menu */}
+
                 <div className="hidden space-x-8 md:flex md:ml-10">
                   {navigation.map((item) => (
                     <LinkScroll
                       key={item.name}
                       className="cursor-pointer p-2 text-base font-medium text-white hover:text-gray-300"
-                      activeClass="active"
                       to={item.name}
                       spy
                       smooth
-                      offset={-100}
+                      offset={-95}
                       duration={1000}
                     >
                       {item.name}
@@ -57,12 +58,16 @@ export const Header = () => (
                 </div>
               </div>
               <div className="hidden md:flex md:items-center md:space-x-6">
-                <a
-                  href="#"
+                <LinkScroll
+                  to="Application"
+                  spy
+                  smooth
+                  offset={-95}
+                  duration={1000}
                   className="cursor-pointer inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"
                 >
                   Apply now
-                </a>
+                </LinkScroll>
               </div>
             </nav>
           </div>
@@ -98,6 +103,8 @@ export const Header = () => (
                     </Popover.Button>
                   </div>
                 </div>
+                {/* Mobile Menu */}
+
                 <div className="pt-5 pb-6">
                   <div className="px-2 space-y-1">
                     {navigation.map((item) => (
@@ -107,7 +114,7 @@ export const Header = () => (
                         to={item.name}
                         spy
                         smooth
-                        offset={-100}
+                        offset={-95}
                         duration={1000}
                       >
                         {item.name}
@@ -115,12 +122,16 @@ export const Header = () => (
                     ))}
                   </div>
                   <div className="mt-6 px-5">
-                    <a
-                      href="#"
+                    <LinkScroll
+                      to="Application"
+                      spy
+                      smooth
+                      offset={-100}
+                      duration={1000}
                       className="block text-center w-full py-3 px-4 rounded-md shadow bg-blue-500 text-white font-medium hover:bg-blue-600"
                     >
                       Apply Now
-                    </a>
+                    </LinkScroll>
                   </div>
                 </div>
               </div>
