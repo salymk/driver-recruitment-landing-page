@@ -11,3 +11,7 @@
 .active {
     @apply bg-white text-gray-900 rounded-md
 }
+
+.active-footer {
+    @apply text-gray-500
+}
