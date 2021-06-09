@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link as LinkScroll } from 'react-scroll';
 
 export const Hero = () => (
   <>
@@ -16,14 +17,28 @@ export const Hero = () => (
             </p>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center md:justify-left lg:justify-start">
               <div className="rounded-md shadow">
-                <a className="cursor-pointer uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 sm:text-sm lg:text-lg md:py-4 lg:text-md md:px-10">
+                <LinkScroll
+                  to="Application"
+                  spy
+                  smooth
+                  offset={-95}
+                  duration={1000}
+                  className="cursor-pointer uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 sm:text-sm lg:text-lg md:py-4 lg:text-md md:px-10"
+                >
                   Apply Now
-                </a>
+                </LinkScroll>
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
-                <a className="cursor-pointer uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 sm:text-sm lg:text-lg md:py-4 lg:text-md md:px-10">
+                <LinkScroll
+                  to="Benefits"
+                  spy
+                  smooth
+                  offset={-95}
+                  duration={1000}
+                  className="cursor-pointer uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 sm:text-sm lg:text-lg md:py-4 lg:text-md md:px-10"
+                >
                   Learn More
-                </a>
+                </LinkScroll>
               </div>
             </div>
           </div>
