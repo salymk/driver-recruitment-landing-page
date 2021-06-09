@@ -2,8 +2,8 @@ import React from 'react';
 
 export const FAQ = () => (
   <>
-    <section className="bg-gray-900 mx-4 rounded-lg section-spacing">
-      <div className="px-4 mx-auto" id="FAQ">
+    <section className="bg-gray-900 mx-4 rounded-lg section-spacing" id="FAQ">
+      <div className="px-4 mx-auto">
         <div className="lg:max-w-2xl lg:mx-auto lg:text-center">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Frequently asked questions
