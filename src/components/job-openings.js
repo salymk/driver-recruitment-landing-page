@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 export const JobOpenings = () => (
   <>
     <section
-      className="relative bg-white mx-4 section-spacing"
+      className="relative bg-white mx-4 py-16 sm:py-24 lg:py-32"
       id="Job Openings"
     >
       <div className="mx-auto max-w-md text-center sm:max-w-3xl sm:px-0 lg:max-w-7xl">
