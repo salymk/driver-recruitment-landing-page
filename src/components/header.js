@@ -23,7 +23,7 @@ export const Header = () => (
               aria-label="Global"
             >
               <div className="flex items-center flex-1">
-                <div className="flex items-center justify-between w-full md:w-auto">
+                <div className="flex items-center justify-between w-full lg:w-auto">
                   <a href="#">
                     <span className="sr-only">Workflow</span>
                     <img
@@ -32,7 +32,7 @@ export const Header = () => (
                       alt=""
                     />
                   </a>
-                  <div className="-mr-2 flex items-center md:hidden">
+                  <div className="-mr-2 flex items-center lg:hidden">
                     <Popover.Button className="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                       <span className="sr-only">Open main menu</span>
                       <MenuIcon className="h-6 w-6" aria-hidden="true" />
@@ -41,7 +41,7 @@ export const Header = () => (
                 </div>
                 {/* Desktop Menu */}
 
-                <div className="hidden space-x-8 md:flex md:ml-10">
+                <div className="hidden space-x-8 lg:flex lg:ml-10">
                   {navigation.map((item) => (
                     <LinkScroll
                       key={item.name}
@@ -57,7 +57,7 @@ export const Header = () => (
                   ))}
                 </div>
               </div>
-              <div className="hidden md:flex md:items-center md:space-x-6">
+              <div className="hidden lg:flex lg:items-center lg:space-x-6">
                 <LinkScroll
                   to="Application"
                   spy
@@ -85,7 +85,7 @@ export const Header = () => (
             <Popover.Panel
               focus
               static
-              className="absolute top-0 inset-x-0 p-2 transition transform origin-top md:hidden"
+              className="absolute top-0 inset-x-0 p-2 transition transform origin-top lg:hidden"
             >
               <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="px-5 pt-4 flex items-center justify-between">
