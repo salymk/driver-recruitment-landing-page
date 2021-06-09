@@ -1,7 +1,10 @@
 import React from 'react';
 
 export const Testimonials = () => (
-  <section className="text-gray-100 section-spacing" id="Testimonials">
+  <section
+    className="overflow-hidden text-gray-100 section-spacing"
+    id="Testimonials"
+  >
     <div className="container px-4 mx-auto">
       <h1 className="text-3xl text-black font-bold mb-12 text-center sm:text-4xl">
         What our drivers have said
