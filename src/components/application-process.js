@@ -21,7 +21,7 @@ export const ApplicationProcess = () => (
               <div className="flow-root bg-gray-900 rounded-lg shadow-lg px-6 pb-8">
                 <div className="-mt-6">
                   <div>
-                    <span className="inline-flex items-center justify-center p-3 bg-blue-500 rounded-md shadow-lg">
+                    <span className="inline-flex items-center justify-center p-3 px-12 bg-blue-500 rounded-md shadow-lg">
                       <h3 className="mb-0 text-2xl font-medium text-white tracking-tight">
                         Company Driver
                       </h3>
@@ -75,7 +75,7 @@ export const ApplicationProcess = () => (
               <div className="flow-root bg-gray-100 rounded-lg shadow-lg px-6 pb-8">
                 <div className="-mt-6">
                   <div>
-                    <span className="inline-flex items-center justify-center p-3 bg-gray-900 rounded-md shadow-lg">
+                    <span className="inline-flex items-center justify-center p-3 px-12 bg-gray-900 rounded-md shadow-lg">
                       <h3 className="mb-0 text-2xl font-medium text-white tracking-tight">
                         Owner Operator
                       </h3>
