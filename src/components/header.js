@@ -156,9 +156,9 @@ export const Header = () => {
                         smooth
                         offset={-100}
                         duration={1000}
-                        className="block text-center w-full py-3 px-4 rounded-md shadow bg-blue-500 capitalize text-white font-medium hover:bg-blue-600"
+                        className="block text-center w-full py-3 px-4 rounded-md shadow bg-blue-500 lowercase text-white font-medium hover:bg-blue-600"
                       >
-                        {ctaBtn ?? 'Apply Now'}
+                        {ctaBtn}
                       </LinkScroll>
                     </div>
                   </div>
