@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link as LinkScroll } from 'react-scroll';
 import { graphql, useStaticQuery } from 'gatsby';
+import { v4 as uuidv4 } from 'uuid';
 
 export const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -29,7 +30,7 @@ export const Footer = () => {
             aria-label="Footer"
           >
             {data.wpPage.recruitment.menu.menuItems.map((item) => (
-              <div className="px-5 py-2">
+              <div className="px-5 py-2" key={uuidv4()}>
                 <LinkScroll
                   key={item.item}
                   className="cursor-pointer text-base text-gray-500 hover:text-gray-50"

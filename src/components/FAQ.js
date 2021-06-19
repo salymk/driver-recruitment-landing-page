@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import { v4 as uuidv4 } from 'uuid';
 
 export const FAQ = () => {
   const data = useStaticQuery(graphql`
@@ -35,7 +36,7 @@ export const FAQ = () => {
           <div className="mt-20">
             <dl className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-10">
               {questions.map((question) => (
-                <div>
+                <div key={uuidv4()}>
                   <dt className="font-semibold text-white">
                     {question.question}
                   </dt>

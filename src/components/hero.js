@@ -8,12 +8,11 @@ export const Hero = () => {
       wpPage(title: { eq: "Recruitment Landing Page" }) {
         recruitment {
           hero {
-            to
             title
             description
             ctaButtons {
-              apply
               learn
+              apply
             }
             image {
               altText
@@ -26,16 +25,15 @@ export const Hero = () => {
   `);
 
   const {
-    to,
     title,
     description,
-    ctaButtons,
     image,
+    ctaButtons,
   } = data.wpPage.recruitment.hero;
-  console.log(data);
+
   return (
     <>
-      <section id={to}>
+      <section id="Home">
         <div className="px-4 mx-auto mt-24">
           <div className="pt-6 lg:pt-0 flex flex-wrap items-center -mx-4 lg:my-10">
             <div className="text-center w-full md:text-left md:w-1/2 px-4 mb-8 md:mb-0">

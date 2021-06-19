@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import { v4 as uuidv4 } from 'uuid';
 
 export const WhyDriveForUs = () => {
   const data = useStaticQuery(graphql`
@@ -35,7 +36,7 @@ export const WhyDriveForUs = () => {
           <div className="mt-12">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {benefits.map((benefit) => (
-                <div className="pt-6">
+                <div className="pt-6" key={uuidv4()}>
                   <div className="flow-root bg-gray-900 rounded-lg px-6 pb-8">
                     <div className="-mt-6">
                       <div>

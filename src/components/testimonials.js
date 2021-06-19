@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import { v4 as uuidv4 } from 'uuid';
 
 export const Testimonials = () => {
   const data = useStaticQuery(graphql`
@@ -32,7 +33,7 @@ export const Testimonials = () => {
         </h1>
         <div className="flex flex-wrap -m-4">
           {person.map((p) => (
-            <div className="p-4 md:w-1/2 w-full">
+            <div className="p-4 md:w-1/2 w-full" key={uuidv4()}>
               <div className="h-full bg-gray-900 p-8 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

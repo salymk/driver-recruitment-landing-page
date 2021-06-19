@@ -3,15 +3,7 @@ import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { Link as LinkScroll } from 'react-scroll';
 import { graphql, useStaticQuery } from 'gatsby';
-
-const navigation = [
-  { name: 'Benefits', href: '#' },
-  { name: 'Work', href: '#' },
-  { name: 'Testimonials', href: '#' },
-  { name: 'Application', href: '#' },
-  { name: 'FAQ', href: '#' },
-  { name: 'Job Openings', href: '#' },
-];
+import { v4 as uuidv4 } from 'uuid';
 
 export const Header = () => {
   const data = useStaticQuery(graphql`
@@ -66,7 +58,7 @@ export const Header = () => {
                   <div className="hidden space-x-8 lg:flex lg:ml-10">
                     {menuItems.map((menu) => (
                       <LinkScroll
-                        key={menu.item}
+                        key={uuidv4()}
                         className="cursor-pointer p-2 capitalize text-base font-medium text-white hover:text-gray-300"
                         to={menu.item}
                         spy
@@ -137,7 +129,7 @@ export const Header = () => {
                     <div className="px-2 space-y-1">
                       {menuItems.map((menu) => (
                         <LinkScroll
-                          key={menu.item}
+                          key={uuidv4()}
                           className="cursor-pointer block px-3 py-2 rounded-md capitalize text-base font-medium text-gray-900 hover:bg-gray-50"
                           to={menu.item}
                           spy

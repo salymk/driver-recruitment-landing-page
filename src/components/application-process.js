@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import { v4 as uuidv4 } from 'uuid';
 
 export const ApplicationProcess = () => {
   const data = useStaticQuery(graphql`
@@ -75,7 +76,7 @@ export const ApplicationProcess = () => {
                     </div>
                     <div className="flex flex-col justify-between text-left py-8 text-white">
                       {companyDriver.steps.map((step) => (
-                        <div className="flex items-start mb-6">
+                        <div className="flex items-start mb-6" key={uuidv4()}>
                           <span className="mr-10 flex-shrink-0 flex justify-center items-center w-12 h-12 rounded-full bg-blue-500 text-white font-bold font-heading">
                             {step.step.number}
                           </span>
@@ -113,7 +114,7 @@ export const ApplicationProcess = () => {
                     </div>
                     <div className="flex flex-col justify-between text-left py-8 text-gray-900">
                       {ownerOperator.steps.map((step) => (
-                        <div className="flex items-start mb-6">
+                        <div className="flex items-start mb-6" key={uuidv4()}>
                           <span className="mr-10 flex-shrink-0 flex justify-center items-center w-12 h-12 rounded-full bg-blue-500 text-white font-bold font-heading">
                             {step.step.number}
                           </span>

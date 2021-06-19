@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import { v4 as uuidv4 } from 'uuid';
 
 export const EmployeeVSOwner = () => {
   const data = useStaticQuery(graphql`
@@ -62,7 +63,7 @@ export const EmployeeVSOwner = () => {
               </p>
               <dl className="mt-10 space-y-4">
                 {companyDriver.details.map((detail) => (
-                  <div className="relative">
+                  <div className="relative" key={uuidv4()}>
                     <dt>
                       <div className="absolute flex items-center justify-center text-blue-500">
                         {/* <!-- Heroicon name: outline/mail --> */}
@@ -112,7 +113,7 @@ export const EmployeeVSOwner = () => {
 
                 <dl className="mt-10 space-y-4">
                   {ownerOperator.details.map((detail) => (
-                    <div className="relative">
+                    <div className="relative" key={uuidv4()}>
                       <dt>
                         <div className="absolute flex items-center justify-center text-blue-500">
                           {/* <!-- Heroicon name: outline/mail --> */}
