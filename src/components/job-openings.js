@@ -4,7 +4,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 export const JobOpenings = () => {
   const data = useStaticQuery(graphql`
     query {
-      wpPage(title: { eq: "Recruitment Landing Page" }) {
+      wpPage(title: { eq: "Driver Recruitment Landing Page" }) {
         recruitment {
           openPositions {
             to

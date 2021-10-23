@@ -5,7 +5,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 export const Hero = () => {
   const data = useStaticQuery(graphql`
     query {
-      wpPage(title: { eq: "Recruitment Landing Page" }) {
+      wpPage(title: { eq: "Driver Recruitment Landing Page" }) {
         recruitment {
           hero {
             title
@@ -37,7 +37,7 @@ export const Hero = () => {
         <div className="px-4 mx-auto mt-24">
           <div className="pt-6 lg:pt-0 flex flex-wrap items-center -mx-4 lg:my-10">
             <div className="text-center w-full md:text-left md:w-1/2 px-4 mb-8 md:mb-0">
-              <h2 className="mb-8 text-3xl lg:text-4xl font-bold lg:max-w-sm">
+              <h2 className="mb-8 text-3xl lg:text-4xl font-bold lg:max-w-md">
                 {title}
               </h2>
               <p className="mb-6 text-lg text-gray-500 lg:max-w-lg">

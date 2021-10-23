@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 export const ApplicationProcess = () => {
   const data = useStaticQuery(graphql`
     query {
-      wpPage(title: { eq: "Recruitment Landing Page" }) {
+      wpPage(title: { eq: "Driver Recruitment Landing Page" }) {
         recruitment {
           applicationProcess {
             title
@@ -47,7 +47,7 @@ export const ApplicationProcess = () => {
     description,
     companyDriver,
     ownerOperator,
-  } = data.wpPage.recruitment.applicationProcess;
+  } = data?.wpPage.recruitment.applicationProcess;
 
   return (
     <>
