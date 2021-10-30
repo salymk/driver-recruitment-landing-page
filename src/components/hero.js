@@ -24,12 +24,8 @@ export const Hero = () => {
     }
   `);
 
-  const {
-    title,
-    description,
-    image,
-    ctaButtons,
-  } = data.wpPage.recruitment.hero;
+  const { title, description, image, ctaButtons } =
+    data.wpPage.recruitment.hero;
 
   return (
     <>
