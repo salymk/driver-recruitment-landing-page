@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import { v4 as uuidv4 } from 'uuid';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 export const ApplicationProcess = () => {
   const data = useStaticQuery(graphql`
@@ -42,12 +43,8 @@ export const ApplicationProcess = () => {
     }
   `);
 
-  const {
-    title,
-    description,
-    companyDriver,
-    ownerOperator,
-  } = data?.wpPage.recruitment.applicationProcess;
+  const { title, description, companyDriver, ownerOperator } =
+    data?.wpPage.recruitment.applicationProcess;
 
   return (
     <>
@@ -89,14 +86,14 @@ export const ApplicationProcess = () => {
                       ))}
                     </div>
                     <div className="rounded-md shadow">
-                      <a
+                      <OutboundLink
                         href={companyDriver.ctaButton.link}
                         target="_blank"
                         rel="noreferrer"
                         className="cursor-pointer uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-gray-50 hover:bg-gray-200 md:py-4 lg:text-lg md:px-10"
                       >
                         {companyDriver.ctaButton.text}
-                      </a>
+                      </OutboundLink>
                     </div>
                   </div>
                 </div>
@@ -127,14 +124,14 @@ export const ApplicationProcess = () => {
                       ))}
                     </div>
                     <div className="rounded-md shadow">
-                      <a
+                      <OutboundLink
                         href={ownerOperator.ctaButton.link}
                         target="_blank"
                         rel="noreferrer"
                         className="cursor-pointer uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 lg:text-lg md:px-10"
                       >
                         {ownerOperator.ctaButton.text}
-                      </a>
+                      </OutboundLink>
                     </div>
                   </div>
                 </div>
