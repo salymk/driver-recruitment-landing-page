@@ -10,6 +10,20 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: 'G-NP37G0LW75',
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ['/preview/**', '/do-not-track/me/too/'],
+
+        // defaults to false
+        enableWebVitalsTracking: true,
+      },
+    },
+    {
       resolve: `gatsby-source-wordpress`,
       options: {
         url: process.env.GATSBY_WP_API_URL,
