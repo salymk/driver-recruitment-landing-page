@@ -47,7 +47,7 @@ export const Hero = () => {
                     smooth
                     offset={-95}
                     duration={1000}
-                    className="cursor-pointer uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-500 hover:bg-blue-600 sm:text-sm lg:text-lg md:py-4 lg:text-md md:px-10"
+                    className="cursor-pointer uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 sm:text-sm lg:text-lg md:py-4 lg:text-md md:px-10"
                   >
                     {ctaButtons.apply}
                   </LinkScroll>
