@@ -32,13 +32,8 @@ export const JobOpenings = () => {
     }
   `);
 
-  const {
-    to,
-    title,
-    description,
-    companyDriver,
-    ownerOperator,
-  } = data.wpPage.recruitment.openPositions;
+  const { to, title, description, companyDriver, ownerOperator } =
+    data.wpPage.recruitment.openPositions;
 
   return (
     <>
