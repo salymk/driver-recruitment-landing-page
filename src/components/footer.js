@@ -29,7 +29,7 @@ export const Footer = () => {
             className="-mx-5 -my-2 flex flex-wrap justify-center"
             aria-label="Footer"
           >
-            {data.wpPage.recruitment.menu.menuItems.map((item) => (
+            {data?.wpPage?.recruitment?.menu?.menuItems?.map((item) => (
               <div className="px-5 py-2" key={uuidv4()}>
                 <LinkScroll
                   key={item.item}

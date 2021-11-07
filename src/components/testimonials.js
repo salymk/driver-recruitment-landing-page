@@ -20,7 +20,7 @@ export const Testimonials = () => {
     }
   `);
 
-  const { title, person } = data.wpPage.recruitment.testimonials;
+  const { title, person } = data?.wpPage?.recruitment?.testimonials;
 
   return (
     <section
@@ -32,7 +32,7 @@ export const Testimonials = () => {
           {title}
         </h1>
         <div className="flex flex-wrap -m-4">
-          {person.map((p) => (
+          {person?.map((p) => (
             <div className="p-4 md:w-1/2 w-full" key={uuidv4()}>
               <div className="h-full bg-gray-900 p-8 rounded-lg">
                 <svg

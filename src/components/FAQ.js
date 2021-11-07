@@ -21,7 +21,7 @@ export const FAQ = () => {
     }
   `);
 
-  const { to, title, description, questions } = data.wpPage.recruitment.faq;
+  const { to, title, description, questions } = data?.wpPage?.recruitment?.faq;
 
   return (
     <>

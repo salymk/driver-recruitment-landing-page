@@ -23,7 +23,7 @@ export const Brands = () => {
     }
   `);
 
-  const { title, description, ctaButton } = data.wpPage.recruitment.brands;
+  const { title, description, ctaButton } = data?.wpPage?.recruitment?.brands;
 
   return (
     <>
