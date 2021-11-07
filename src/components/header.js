@@ -23,6 +23,7 @@ export const Header = () => {
     }
   `);
   const { menuItems, ctaBtn, logo } = data.wpPage.recruitment.menu;
+  console.log(menuItems);
   return (
     <>
       <Popover as="header" className="shadow-xl fixed w-full z-20 top-0">
@@ -54,7 +55,7 @@ export const Header = () => {
               {/* Desktop Menu */}
 
               <div className="hidden space-x-8 lg:flex lg:ml-10">
-                {menuItems.map((menu) => (
+                {menuItems?.map((menu) => (
                   <LinkScroll
                     key={uuidv4()}
                     className="cursor-pointer p-2 capitalize text-base font-medium text-white hover:text-gray-300"
