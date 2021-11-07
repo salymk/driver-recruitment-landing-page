@@ -35,7 +35,7 @@ export const WhyDriveForUs = () => {
           </p>
           <div className="mt-12">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-              {benefits.map((benefit) => (
+              {benefits?.map((benefit) => (
                 <div className="pt-6" key={uuidv4()}>
                   <div className="flow-root bg-gray-900 rounded-lg px-6 pb-8">
                     <div className="-mt-6">

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import { v4 as uuidv4 } from 'uuid';
@@ -39,7 +40,7 @@ export const EmployeeVSOwner = () => {
     }
   `);
 
-  const { work, companyDriver, ownerOperator } = data.wpPage.recruitment;
+  const { work, companyDriver, ownerOperator } = data?.wpPage?.recruitment;
   return (
     <>
       <section className="overflow-hidden section-spacing" id={work.to}>
@@ -62,7 +63,7 @@ export const EmployeeVSOwner = () => {
                 {companyDriver.description}
               </p>
               <dl className="mt-10 space-y-4">
-                {companyDriver.details.map((detail) => (
+                {companyDriver?.details?.map((detail) => (
                   <div className="relative" key={uuidv4()}>
                     <dt>
                       <div className="absolute flex items-center justify-center text-blue-500">
@@ -112,7 +113,7 @@ export const EmployeeVSOwner = () => {
                 </p>
 
                 <dl className="mt-10 space-y-4">
-                  {ownerOperator.details.map((detail) => (
+                  {ownerOperator?.details?.map((detail) => (
                     <div className="relative" key={uuidv4()}>
                       <dt>
                         <div className="absolute flex items-center justify-center text-blue-500">
@@ -144,8 +145,8 @@ export const EmployeeVSOwner = () => {
               <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
                 <img
                   className="relative mx-auto sm:rounded-lg"
-                  src={ownerOperator.image.sourceUrl}
-                  alt={ownerOperator.image.altText}
+                  src={ownerOperator?.image?.sourceUrl}
+                  alt={ownerOperator?.image?.altText}
                   width="490"
                 />
               </div>
