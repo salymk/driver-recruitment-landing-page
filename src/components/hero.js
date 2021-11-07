@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import { Link as LinkScroll } from 'react-scroll';
 import { graphql, useStaticQuery } from 'gatsby';
@@ -70,7 +71,7 @@ export const Hero = () => {
               <img
                 className="object-cover w-full sm:rounded-lg"
                 src={image?.sourceUrl}
-                alt={image.altText}
+                alt={image?.altText}
               />
             </div>
           </div>
