@@ -69,7 +69,7 @@ export const Hero = () => {
             <div className="mx-auto w-full h-full md:px-4 md:w-1/2">
               <img
                 className="object-cover w-full sm:rounded-lg"
-                src={image.sourceUrl}
+                src={image?.sourceUrl}
                 alt={image.altText}
               />
             </div>
