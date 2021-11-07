@@ -35,7 +35,7 @@ export const Footer = () => {
                   key={item.item}
                   className="cursor-pointer text-base text-gray-500 hover:text-gray-50"
                   activeClass="active-footer"
-                  to={item.item}
+                  to={item?.item}
                   spy
                   smooth
                   offset={-95}
