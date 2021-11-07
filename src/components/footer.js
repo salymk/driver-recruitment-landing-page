@@ -32,7 +32,7 @@ export const Footer = () => {
             {data?.wpPage?.recruitment?.menu?.menuItems?.map((item) => (
               <div className="px-5 py-2" key={uuidv4()}>
                 <LinkScroll
-                  key={item.item}
+                  key={item?.item}
                   className="cursor-pointer text-base text-gray-500 hover:text-gray-50"
                   activeClass="active-footer"
                   to={item?.item}
@@ -41,7 +41,7 @@ export const Footer = () => {
                   offset={-95}
                   duration={1000}
                 >
-                  {item.item}
+                  {item?.item}
                 </LinkScroll>
               </div>
             ))}
