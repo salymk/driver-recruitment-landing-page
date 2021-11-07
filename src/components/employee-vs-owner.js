@@ -95,8 +95,8 @@ export const EmployeeVSOwner = () => {
             <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
               <img
                 className="relative mx-auto sm:rounded-lg"
-                src={companyDriver.image.sourceUrl}
-                alt={companyDriver.image.altText}
+                src={companyDriver?.image?.sourceUrl}
+                alt={companyDriver?.image?.altText}
                 width="490"
               />
             </div>
